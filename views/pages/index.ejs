@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <%- include("../partials/head"); %>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="intro">
+                <h1 class="desktop-h1 mobile-small-h1 mobile-large-h1">Quick Black History Facts</h1>
+
+                <p class="desktop-subtitle mobile-small-subtitle mobile-large-subtitle">This website automatically
+                    refreshes
+                    every 10 seconds.</p>
+            </div>
+
+            <div class="desktop-facts mobile-small-facts mobile-large-facts">
+                <h2 class="desktop-h2 mobile-small-h2 mobile-large-h2">
+                    <%= black_history_fact %>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <%- include("../partials/footer"); %>
+    </footer>
+</body>
+
+</html>
