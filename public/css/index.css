@@ -1,0 +1,122 @@
+body {
+  background-color: #2E294E;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #FFD400;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #BBCBCB;
+}
+
+.desktop-h1 {
+  font-size: 3.125rem;
+  margin-top: 5rem;
+}
+
+.desktop-subtitle {
+  font-size: 1rem;
+}
+
+.desktop-h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  padding: 1rem;
+}
+
+.intro {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.desktop-facts {
+  margin-top: 6.25rem;
+  border: 0.375rem solid #FFF;
+  padding: 0.25rem;
+}
+
+.desktop-social-media {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .mobile-small-h1 {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  }
+
+  .mobile-small-subtitle {
+    font-size: 0.75rem;
+  }
+
+  .mobile-small-h2 {
+    font-size: 1.25rem;
+    padding: 0.125rem;
+  }
+
+  .mobile-small-facts {
+    margin-top: 1rem;
+    border: 0.125rem solid #FFF;
+  }
+
+  .mobile-small-social-media {
+    position: relative;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .mobile-small-h1 {
+    font-size: 1.875rem;
+    margin-top: 1rem;
+  }
+
+  .mobile-small-subtitle {
+    font-size: 1rem;
+  }
+
+  .mobile-small-h2 {
+    font-size: 1.25rem;
+    padding: 0.125rem;
+  }
+
+  .mobile-small-facts {
+    margin-top: 1.25rem;
+    border: 0.25rem solid #FFF;
+  }
+
+  .mobile-small-social-media {
+    position: relative;
+    margin-top: 1.25rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mobile-large-h1 {
+    margin-top: 1rem;
+  }
+
+  .mobile-large-h2 {
+    padding: 0.125rem;
+  }
+
+  .mobile-large-facts {
+    margin-top: 1.25rem;
+    border: 0.25rem solid #FFF;
+  }
+}
